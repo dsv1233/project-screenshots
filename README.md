@@ -94,7 +94,7 @@ Few other tasks were also done as part of “Section 1” but, the above mention
 
 **Section 2: -**
 
-**Task 1** - Using Angular recreate the form structures (for new wessel and existing weseel) in SMARTShip application by the company - Alpha Ori Technologies, on a single web page. 
+**Task 1** - Using Angular recreate the form structures (for new wessel and existing wessel) in SMARTShip application by the company - Alpha Ori Technologies, on a single web page. 
 
 Proper validations must be done and as shown in the screenshot, validation error must change the border color from white to red. On clicking “Save”, the data in the “formgroup” must be converted to JSON.
 
