@@ -94,7 +94,7 @@ Few other tasks were also done as part of “Section 1” but, the above mention
 
 **Section 2: -**
 
-**Task 1** - Using Angular recreate the form structure as shown in below attached screenshot. Both the screenshot should be on the same page, where certain sections of the page is changed when drop-down value is changed from “12334” to “NEW WESSEL”.
+**Task 1** - Using Angular recreate the form structures in SMARTShip application by the company - Alpha Ori Technologies (as shown in screenshots below). Both the screenshot should be on the same page, where certain sections of the page is changed when drop-down value is changed from “12334” to “NEW WESSEL”.
 
 ![image](https://user-images.githubusercontent.com/107001929/188276063-81b95339-5776-4211-b113-2c1c3df2c5e8.png)
 
@@ -108,27 +108,27 @@ Proper validations must be done and as shown in the screenshot, validation error
 
 **Solution 1 -** Local server <http://localhost:4200/> is used to open the application on the browser. To open the application, navigate to the application folder in command prompt or terminal and use the command “ng serve --open” as shown in the screenshot below.
 
-![](media/f3edba9e1a3f351b186b009bab05c5fa.png)
+![image](https://user-images.githubusercontent.com/107001929/188276345-1ed0ca4e-b7bb-4213-ad1b-5081665b55c9.png)
 
-Figure 12: Opening Angular application- formApp
+                  Figure 12: Opening Angular application- formApp
 
 The below screenshots show the form structure where the user enters vessel related information. For “New Wessel”, some key information like “Vessel IMD”, “Vessel Name”, “Vessel Type” etc is needed whereas for already existing Wessel (either “12334” Or “ADXAXASX”) these details are already available hence need to be removed from the form page and the user doesn’t have to enter them again.
 
 Below are the screenshots for adding a New Wessel and for an existing Wessel but, both are part of the same “formgroup” or form structure.
 
-![](media/9a54f4030856c46fea12f2e817c6e6d4.png)
+![image](https://user-images.githubusercontent.com/107001929/188276351-9641705d-f9b3-4879-a95f-fc29952ed9c0.png)
 
-Figure 13: formApp- New Wessel
+                  Figure 13: formApp- New Wessel
 
-![](media/fb5b1bbd901e423082e584a5aad20211.png)
+![image](https://user-images.githubusercontent.com/107001929/188276357-78f2f54a-e655-4bdd-86c2-299888c3edf9.png)
 
-Figure 14: formApp - Existing Wessel
+                Figure 14: formApp - Existing Wessel
 
 On clicking “Save” button, it will check for validations. If validations are not met, it will change the bottom border color from white to red. If all the validations (checks whether any required fields are empty and if not check whether the input is valid or as per requirement), the a JSON output is produced. This data can be stored in database or can be used for any other purpose. JSON format is the easiest way to transfer data from client-side to server- side. The generated JSON is displayed or logged in the console layout (as shown in the screenshot below).
 
-![](media/02ea00c52657389c3fae934f4e4e777c.png)
+![image](https://user-images.githubusercontent.com/107001929/188276371-009e8ec7-0ac8-4f85-ac7e-669e70192a08.png)
 
-Figure 15: console layout with JSON data
+                   Figure 15: console layout with JSON data
 
 **Task 2** - Implement the following:
 
@@ -150,43 +150,43 @@ The Routing section in the screenshot below (Figure 16), navigates to a differen
 
 On clicking “Product Detail” (in Figure 16) corresponding to product name- “shoes”- it will navigate to a different view as shown in screenshot in Figure 17, where 3456788 is the “productid” for “shoes. The button “Go to List” will help to navigate back to original view (localhost:4200). The button “Contact List” (in Figure 16) will navigate to a different view (localhost:4200/contacts) which consist of CRUD operation (as shown in Figure 18). The data displayed in the table (in Figure 18) is stored in a local server (JSON Server). “New” button will help in adding new row to the table (create), “Edit” button will help to update a row, “View” button to Read a row contents in detail and finally, “Delete” button to remove a row from the table.
 
-![](media/79c36a8b8c6f21b40f5aaedb82821071.png)
+![image](https://user-images.githubusercontent.com/107001929/188276382-2bdc6395-9d2d-48e0-aee2-31b9e7ec97d0.png)
 
-Figure 16: Routing and Lodash Implementation
+                     Figure 16: Routing and Lodash Implementation
 
-![](media/53bba4250be3a5783c7266af6471f0c2.png)
+![image](https://user-images.githubusercontent.com/107001929/188276389-9135889c-3149-4198-b2df-a02aaacebfbc.png)
 
-Figure 17: Routing- A different View
+                         Figure 17: Routing- A different View
 
-![](media/72ef5c1b26b75f1651155d7e865961e9.png)
-
-Figure 18: CRUD Operation
+![image](https://user-images.githubusercontent.com/107001929/188276396-287bd3f2-f627-49a9-b608-7f75f34d7efc.png)
+                              
+                              Figure 18: CRUD Operation
 
 Table search is done on a normal table. It consists of three inputs and data binding is done using “[ngModal](https://appdividend.com/2022/01/19/angular-ngmodel/)”- helping to get the value entered in the HTML component. This value is further used to compare with the data in the Table. If a match is found, then only that data is returned to the template to be displayed.
 
-![](media/15f609ce6508f51880e8ba300261b0f3.png)
+![image](https://user-images.githubusercontent.com/107001929/188276414-ccdc13ab-5314-4ef3-9a33-59e248fde3f8.png)
 
-Figure 19: Table Filtering
+                               Figure 19: Table Filtering
 
 The below screenshots show how parent and child components interact with each other. It implements various methods used for the interaction.
 
-![](media/c04b4589e929ae4bd915acd91fa212c5.png)
+![image](https://user-images.githubusercontent.com/107001929/188276422-c8728e4e-2642-4ff5-ac84-655f98ba80ac.png)
 
-Figure 20: Parent/ Child Interaction - 1
+                            Figure 20: Parent/ Child Interaction - 1
 
 The below screenshot is another example of Parent child interaction, without the need for navigating to a different view. The table content is edited on the same page or same view (localhost:4200).
 
-![](media/966f21ad563a9165d46983fd3a9dc86d.png)
+![image](https://user-images.githubusercontent.com/107001929/188276549-9543522d-ce85-4d44-8c0e-38633cae743f.png)
 
-Figure 21: Parent/ Child Interaction - 2
+                              Figure 21: Parent/ Child Interaction - 2
 
 Finally, Reactive programming enables the data stream to be emitted from one source called **Observable** and the emitted data stream to be caught by other sources called **Observer** through a process called subscription. This Observable / Observer pattern or simple **Observer** pattern greatly simplifies complex change detection and necessary updating in the context of the programming. **RxJs** is a JavaScript Library which enables reactive programming in JavaScript. **Rxjs** provides lot of method to create **Observable** from common JavaScript Objects. Angular, make use od Rxjs library to implement Observable.
 
 The below screenshot implements the concept of Observable and takes a number (n) as input and calculate sum of all numbers from 1 to n.
 
-![](media/90fa227cb46b032e3b98c0bf47f14ebd.png)
+![image](https://user-images.githubusercontent.com/107001929/188276555-9c9476c2-48e1-452d-b0b9-80a8eef4cd5c.png)
 
-Figure 22: Observable Implementation
+                                Figure 22: Observable Implementation
 
 With the above two tasks Section 2 was completed successfully.
 
@@ -198,55 +198,59 @@ With the above two tasks Section 2 was completed successfully.
 
 The output was verified using POSTMAN. The screenshots for each operation is attached below:
 
-![](media/33d44e2b01e3c947533251ce4ec2d152.png)
+![image](https://user-images.githubusercontent.com/107001929/188276563-7c6d4ddb-fb5a-43e1-9f6e-c482514bfb67.png)![](media/33d44e2b01e3c947533251ce4ec2d152.png)
 
-Figure 23: GET operation- retrieves all the data from the database.
+                         Figure 23: GET operation- retrieves all the data from the database.
 
 Similarly, data of a specific ID can also be retrieved using MySql query. The screenshot below demonstrates “POST” and “Delete” a row from the MySql table. Similarly, “PUT” operation (updating a particular row in the table) can also be done.
 
-![](media/197952769a0283141be8f57e6b9a482e.png)
+![image](https://user-images.githubusercontent.com/107001929/188276566-c4dfe0ce-7aa2-44ce-a796-e851e552b06f.png)
 
-Figure 24: POST Operation
+                                 Figure 24: POST Operation
 
-![](media/ed4ec2bce1c4884a0293df71c4d2e819.png)
+![image](https://user-images.githubusercontent.com/107001929/188276577-0ba38ade-b285-4b3e-baaf-e01c3523b519.png)
 
-Figure 25: Delete Operation
+                                Figure 25: Delete Operation
 
 **Task 2**- Implement SignUp/ Login using Angular for Frontend Development and NodeJS for backend Development. A database of choice can be used to store user login credentials. Use a secret token (JSON web token) for authentication and “bcrypt” is used for credential comparison.
 
 **Solution 2 -**
 
-The signUp page requires some basic details as shown in screenshot below and “Sign Up” button will be enabled once all the fields are entered. ![](media/d69f75c64ddc61e36a834f5d367f9dc5.PNG) Figure 26: SignUp Page
+The signUp page requires some basic details as shown in screenshot below and “Sign Up” button will be enabled once all the fields are entered. 
+
+![image](https://user-images.githubusercontent.com/107001929/188276585-c819ec9d-b0cc-4100-9c9e-f0fd5a6c8979.png)
+      
+                                    Figure 26: SignUp Page
 
 Login/SignUp page - authentication is done using JWT and password is hashed before storing user details to database.
 
-![](media/86e0976007b5377bce879e4adea4ca14.png)
+![image](https://user-images.githubusercontent.com/107001929/188276599-f012cb80-0560-4b72-9cbd-55901913941f.png)
 
-Figure 27: Login Page
+                                    Figure 27: Login Page
 
 View Page - On successful login, post details are displayed.
 
-![](media/d6dfd57044eea6b5439fdb5ad67e1c11.PNG)
+![image](https://user-images.githubusercontent.com/107001929/188276605-5ee9095e-bf65-4adb-bdf0-c2b67b0952a7.png)
 
-Figure 28: Login Success and View Page
+                             Figure 28: Login Success and View Page
 
 Add Page - Create new post and upload a file. Post title, body and filename is added to the database. File is saved in the server-side directory.
 
-![](media/e9c4834e42f53bae5020456787a439ab.PNG)
+![image](https://user-images.githubusercontent.com/107001929/188276612-b899b9f6-f846-4fe0-8b8f-b2e87f41ecc2.png)
 
-Figure 29: Create Page
+                                    Figure 29: Create Page
 
-![](media/2a1c59e5a24277b1a3f861233248216f.PNG)
+![image](https://user-images.githubusercontent.com/107001929/188276620-56bf882f-ab60-4361-bba1-e031e5f7bc94.png)
 
-Figure 30: Updated View Page
+                                  Figure 30: Updated View Page
 
 Edit Page - Can edit post title and body.
 
 Delete Post - delete icon in view page is used to delete the entry from the database and to delete uploaded file from the server-side.
 
-![](media/8d5b6a5fb59003863defc50c5e5c9f77.PNG)
+![image](https://user-images.githubusercontent.com/107001929/188276627-abb47484-693b-481b-a30a-004c8949e3d5.png)
 
-Figure 31: Edit Page
+                                       Figure 31: Edit Page
 
 Technologies used: Angular, Nodejs
 
