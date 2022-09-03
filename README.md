@@ -1,6 +1,7 @@
-# project-screenshots
+# Project Tasks and Results
 Some screenshots of my projects.
-# Tasks and Project Results
+
+**Section 1: -**
 
 **Task 1** - Recreate <https://www.javascripttutorial.net/sample/dom/countdown-timer/> , a website that does 2023 new year countdown. All the computations must be done only using JavaScript and CSS for page styling.
 
@@ -14,7 +15,7 @@ A screenshot of the final result is attached below:
 
 ![image](https://user-images.githubusercontent.com/107001929/188275781-528d2c74-875c-41c8-8169-762398c94cef.png)
 
-Figure 1: New Year Countdown Web page
+                                 Figure 1: New Year Countdown Web page
 
 **Task 2** - Create a web page to display current time as a clock using HTML, CSS and Javascript. Should be able to set Wake up time, lunch, nap and party time. An image and text will be displayed based on the set time/ selected time. Further add a button to make the current time as “party time”. Styling can be done as per interest.
 
@@ -24,19 +25,19 @@ Further, a button namely “Party Time” is also included in the page to set th
 
 The screenshots below show two cases. One before clicking “party time”, and the one after clicking “party time”.
 
-![](media/9be5da3a98d81044cb9d9ed53706af29.png)
+![image](https://user-images.githubusercontent.com/107001929/188275855-7b35cdc5-2c61-4939-8796-21766ee79671.png)
 
-Figure 2: Basic Web page outlook
+                                  Figure 2: Basic Web page outlook
 
-![](media/d38c14757907f7b4c6ea99efa5bef61e.png)
+![image](https://user-images.githubusercontent.com/107001929/188275867-bcbdf983-cc4e-4e1f-8825-cc84db3b0de0.png)
 
-Figure 3: The image and message changes once "party time" button is clicked.
+                        Figure 3: The image and message changes once "party time" button is clicked.
 
 The below screenshot shows when the nap time range is changed to “4 PM - 5PM”. A similar change occurs when the other times are changed.
 
-![](media/ed241eb558b741b1944100e3a309dbd5.png)
+![image](https://user-images.githubusercontent.com/107001929/188275892-211738c4-6b2a-4ed8-b8dc-0478a810844c.png)
 
-Figure 4: NapTime is changed to a different time Range
+                         Figure 4: NapTime is changed to a different time Range
 
 **Task 3** - Built a website with two web pages, namely HOME and Register, using mainly Bootstrap (v4) and it should meet the following requirements:
 
@@ -59,35 +60,35 @@ Below attached are various sections from the Home page.
 
 The screenshot below shows a Navigation bar and a slide show. It is an automated slide show but can also be controlled using the “previous” arrow button and “next” arrow button. Clicking on “Register” in the Navigation bar will take to the next web page. The others in the list namely, “About”, “Training”, “Contact” doesn’t do anything.
 
-![](media/5e3359bb5ad84ec89b0d82df58f3dbdb.png)
+![image](https://user-images.githubusercontent.com/107001929/188275909-bc03fc3d-01bb-401f-9069-d9ff5010f689.png)
 
-Figure 5: NavBar and Slide Show
+                                   Figure 5: NavBar and Slide Show
 
 The container section consists of a collapse section, Popover, ToolTip, a card structure with data toggle capability, table and Pagination.
 
-![](media/58d58036bcde05516cf66a3a68dd2f71.png)
+![image](https://user-images.githubusercontent.com/107001929/188276004-1d150f24-ec00-4b30-b345-bb727ee6ba20.png)
 
-Figure 6: Container Section
+                                    Figure 6: Container Section
 
 The “Click Me” will collapse images which are in a Card Structure, the “Toggle popover” button will display some additional information about the text in the button. Th popover button can have any text value. Tooltip is mainly used to pop-up some small text when you hover over it. The text can be displayed on top, bottom, left or right. “Item \#1, \#2, \#3” are in a card structure and has the ability to expand one at a time. Clicking on “item \#1” will expand it but on clicking “item \#2”, “item \#1” will be collapsed and “item \#2” expanded (known as Accordion).
 
-![](media/83f87b0face464c56e0b9911e5ffe674.png)
+![image](https://user-images.githubusercontent.com/107001929/188276014-a74f5d8d-cb92-48cf-82e6-1af7bebbdd7f.png)
 
-Figure 7: Collapsing, cards, popover and tooltip
+                      Figure 7: Collapsing, cards, popover and tooltip
 
 The last section of the Home page includes the Table for displaying some data using Bootstrap and Pagination where “1” is for Home page (highlighted in the screenshot below) and “2” for Register Page. Programming for “Previous” and “Next” but is not included in this Task.
 
-![](media/94d57a69349950b4dd9660d49903c2f1.png)
+![image](https://user-images.githubusercontent.com/107001929/188276025-7311075a-21e2-4b83-9676-657fd42a893e.png)
 
-Figure 8: Table and Pagination
+                                 Figure 8: Table and Pagination
 
 1.  Register Page
 
 The form (as shown below) consist of all the necessary fields with proper validations. “2” in pagination is highlighted to indicate that it is the second web page and “Register” is navigation bar is also highlighted.
 
-![](media/5f78748baf57748db4a0d7d81a9be0da.png)
+![image](https://user-images.githubusercontent.com/107001929/188276033-fdaefaa0-b5fd-4a45-9a3e-78fed7d5c1e7.png)
 
-Figure 9: Register Form
+                                            Figure 9: Register Form
 
 Few other tasks were also done as part of “Section 1” but, the above mentioned are the three main tasks used for the assessment.
 
@@ -95,13 +96,13 @@ Few other tasks were also done as part of “Section 1” but, the above mention
 
 **Task 1** - Using Angular recreate the form structure as shown in below attached screenshot. Both the screenshot should be on the same page, where certain sections of the page is changed when drop-down value is changed from “12334” to “NEW WESSEL”.
 
-![](media/d747003c1a4c0cc0f1d8c19add4993ed.png)
+![image](https://user-images.githubusercontent.com/107001929/188276063-81b95339-5776-4211-b113-2c1c3df2c5e8.png)
 
-Figure 10: The original Form structure ("12334")
+                     Figure 10: The original Form structure ("12334")
 
-![](media/3bdcc85bdc9a0e8db802b85a64f3004e.png)
+![image](https://user-images.githubusercontent.com/107001929/188276077-1e3084ed-f82d-47fb-8aa3-ff10f89d7aea.png)
 
-Figure 11: Form Structure changed when the selection is "NEW WESSEL"
+                Figure 11: Form Structure changed when the selection is "NEW WESSEL"
 
 Proper validations must be done and as shown in the screenshot, validation error must change the border color from white to red. On clicking “Save”, the data in the “formgroup” must be converted to JSON.
 
