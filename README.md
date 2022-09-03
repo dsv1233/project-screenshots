@@ -12,7 +12,7 @@ Styling is down using CSS. Background image can be set to any image using “bac
 
 A screenshot of the final result is attached below:
 
-![](media/8fdf13aec23f47f002b431317655ccab.png)
+![image](https://user-images.githubusercontent.com/107001929/188275781-528d2c74-875c-41c8-8169-762398c94cef.png)
 
 Figure 1: New Year Countdown Web page
 
